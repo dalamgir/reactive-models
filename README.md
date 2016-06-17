@@ -2,6 +2,30 @@
 
 Reactive Models are objects that represent data in an application. They are initialized with a set of properties. Properties are retrieved and mutated using getter and setter methods. Model property changes can have listeners that react to property changes. There are no custom events involved; just simple callbacks.
 
+#Motivation
+
+When designing the front end application, we want a clean mental model. Clean mental model means that we should be able to visualize the visible state of the application as data changes. Using reactive models, we can bind visual changes to specific model properties without worrying about when and where these properties will actually change. When the property changes, usually when data is fetched or due to some other user input, the setter method on the model is simply called and all the visual changes are applied accordingly. This provides a clean separation between the mutation of the data and representation of state.
+
+For a full demo, run the following:
+
+1. Install the global packages
+
+```
+npm install -g gulp
+```
+
+2. Install the local packages
+
+```
+npm install
+```
+
+3. Run the demo app
+
+```
+npm start
+```
+
 #Example
 
 To create a new model, simply use the constructor and pass in the properties. For example:
