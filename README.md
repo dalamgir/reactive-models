@@ -44,3 +44,9 @@ The new property can be retrived by calling the getter method as well.
 ```javascript
 person.get('name') // => Bob
 ```
+
+#What's Coming
+* Nested objects
+* Collection of models
+* Reverting properties
+* Much much more
