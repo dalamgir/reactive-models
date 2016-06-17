@@ -1,2 +1,9 @@
 # reactive-models
-Data models that are reactive in nature
+
+#Introduction
+
+#Example
+
+#Subscriptions
+
+#Getters and Setters
