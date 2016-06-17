@@ -25,6 +25,12 @@ const onNameChange = name => console.log(`The new name is ${name}`);
 person.subscribe('name', onNameChange);
 ```
 
+Callbacks attached to a specific property can also be removed.
+
+```javascript
+person.unsubscribe('name', onNameChange);
+```
+
 #Getters and Setters
 
 Since the property 'name' has a callback attached to it, the callback will get called every time the 'name' property is set using the setter method.
