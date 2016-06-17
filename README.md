@@ -17,4 +17,12 @@ var person = new Model({
 
 #Subscriptions
 
+Now that we have a model, we can listen to property changes by subscribing to the particular property.
+
+```javascript
+
+const onNameChange = name => console.log(`The new name is ${name}`);
+
+person.subscribe('name', onNameChange);
+
 #Getters and Setters
