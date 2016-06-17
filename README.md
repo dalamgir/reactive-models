@@ -20,9 +20,21 @@ var person = new Model({
 Now that we have a model, we can listen to property changes by subscribing to the particular property.
 
 ```javascript
-
 const onNameChange = name => console.log(`The new name is ${name}`);
 
 person.subscribe('name', onNameChange);
+```
 
 #Getters and Setters
+
+Since the property 'name' has a callback attached to it, the callback will get called every time the 'name' property is set using the setter method.
+
+```javascript
+person.set('name', 'Bob') // => The new name is Bob
+```
+
+The new property can be retrived by calling the getter method as well.
+
+```javascript
+person.get('name') // => Bob
+```
