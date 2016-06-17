@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reactive Models</title>
+</head>
+<body>
+
+    <div class="editor">
+        Name: <input id="nameInput">
+        Age: <input id="ageInput">
+        <button>Set Values</button>
+    </div>
+
+    <div class="output">
+        My name is <span id="name"></span> and I am <span id="age"></span> years old
+    </div>
+
+    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('./dist/main');
+    </script>
+</body>
+</html>
