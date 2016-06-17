@@ -8,25 +8,19 @@ When designing the front end application, we want a clean mental model. Clean me
 
 For a full demo, run the following:
 
-1. Install the global packages
+Install the global packages
 
-```
-npm install -g gulp
-```
+`npm install -g gulp`
 
-2. Install the local packages
+Install the local packages
 
-```
-npm install
-```
+`npm install`
 
-3. Run the demo app
+Run the demo app
 
-```
-npm start
-```
+`npm start`
 
-4. Launch a browser to http://localhost:3000
+Launch a browser to http://localhost:3000
 
 ##Example
 
