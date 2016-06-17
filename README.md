@@ -26,6 +26,8 @@ npm install
 npm start
 ```
 
+4. Launch a browser to http://localhost:3000
+
 #Example
 
 To create a new model, simply use the constructor and pass in the properties. For example:
